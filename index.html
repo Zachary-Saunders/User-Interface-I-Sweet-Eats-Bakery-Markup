@@ -1,90 +1,78 @@
-<!-- 
-
-Step 1: Fork this pen so it's yours.
-
-Step 2: Practice marking up this content using semantic HTML tags. 
-
-Remember that semantic markup provides meaning.  Here are a few tags you could consider using:
-
-<h1> through <h6> 
-<p>
-<header>
-<footer>
-<nav>
-<a>
-<section>
-<address>
-
-Don't worry about CSS here, The goal is to markup the page in a semantic way.  
-
-Step 3: Once you're done marking the content up. Let your project manager know and send them a link to your codepen.
-
--->
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sweet Eats Bakery Markup</title>
-</head>
-
-<body>
-    <!-- company name -->
-    <h1>Sweet Eats Bakery</h1>
-
-    <!-- Navigation -->
-    <nav>
-        <a href="#">About</a>
-        <a href="#">Cookies</a>
-        <a href="#">Weddings</a>
-        <a href="#">Catering</a>
-        <a href="#">Contact</a>
-    </nav>
-
-    <!-- Marketing header -->
-    <section>
-    <h2>About Sweet Eats Bakery</h2>
-
-    <p>Marzipan jelly-o macaroon I love macaroon jujubes. Candy candy canes jujubes I love ice cream croissant. Lollipop donut icing I love liquorice gummi bears marzipan. Dragée jelly beans apple pie cotton candy lemon drops pastry candy powder.</p>
-    </section>
-    <!-- content -->
-    <section>
-    <h3>Cupcakes</h3>
-
-    <p>Candy apple pie lemon drops sweet roll danish. Tiramisu candy canes jelly-o jelly beans cotton candy pastry pudding tootsie roll carrot cake. Dessert sesame snaps brownie lemon drops cookie donut dragée. Toffee pie fruitcake powder gingerbread pudding.</p>
-
-    <h3>Cookies</h3>
-
-    <p>Cookie soufflé dessert carrot cake fruitcake halvah pudding cake. Marzipan topping bear claw soufflé gingerbread biscuit. Tiramisu gummi bears chocolate bar sugar plum icing muffin cake jelly-o icing.</p>
-
-    <h3>Catering</h3>
-
-    <p>Sweet jelly-o apple pie powder jelly beans. Pastry sweet roll cake jujubes halvah soufflé brownie. Toffee cookie lemon drops jelly beans chocolate bar. Wafer muffin jujubes danish tart danish chocolate wafer.</p>
-    </section>
-
-    <p>Contact</p>
-
-    <address>
-        <p><a href="#">ayum@sweeteatsbakery.com</a></p>
-        <p>202-555-0144</p>
-        <p>4209 Bobcat Drive</p>
-        <p>Madison, WI, 48219</p>
-    </address>
-
-    <!-- footer -->
-    <footer>
-        <p>Sweet Eats Bakery</p>
+<html>
+    <head>
+        <title>Sweet Eats Projects</title>
+        <Link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Great Vibes|Roboto|Montserrat" rel="stylesheet">   
+    </head>
+    <body>
+        <div class="container">
+            <h1>Sweet Eats Bakery</h1>
+            <header>
+              <!-- Navigation -->
+              <nav class="nav">
+                <a href="#">About</a>
+                <a href="#">Cookies</a>
+                <a href="#">Weddings</a>
+                <a href="#">Catering</a>
+                <a href="#">Contact</a>
+              </nav>
         
-        <a href="#">About</a>
-        <a href="#">Cookies</a>
-        <a href="#">Weddings</a>
-        <a href="#">Catering</a>
-        <a href="#">Contact</a>
+              <!-- Marketing header -->
+              <section class="about">
+                <img src="https://media.istockphoto.com/photos/wedding-cake-picture-id869089576?k=6&m=869089576&s=612x612&w=0&h=ep38ktR_24XVPYuS_0lUihyCMpuw2OarTBLtG-BiO9I=" alt="woodsey wedding cake">
+                <h2>About Sweet Eats Baker</h2>
         
-        <p>Copyright Sweet Eats 2018</p>
-    </footer>
-</body>
+                <p>Marzipan jelly-o macaroon I love macaroon jujubes. Candy candy canes jujubes I love ice cream croissant. Lollipop donut icing I love liquorice gummi bears marzipan. Dragée jelly beans apple pie cotton candy lemon drops pastry candy powder.</p>
+              </section>
+            </header>
+            <!-- content -->
+            <section class="content-row">
+              <div>
+                <h2>Cupcakes</h2>
+                <img src="https://media.istockphoto.com/photos/party-background-picture-id534220432?k=20&m=534220432&s=612x612&w=0&h=RJLZ7UualFcClSsRb4gj2LjTKGawtJDxJB0f3gGcf7o=" alt="Colorful cupcakes">
+                <p>Candy apple pie <br> lemon drops <br> sweet roll danish <br> Tiramisu candy canes<br> jelly-o jelly beans<br> cotton candy pastry pudding<br> tootsie roll carrot cake <br>Dessert sesame snaps<br> brownie <br>lemon drops<br> cookie donut dragée.<br> Toffee pie<br> fruitcake <br>powder gingerbread pudding.</p>
+              </div>
+            </section>
+        
+            <section class="content-row">
+              <div>
+                <h3>Cookies</h3>
+                <img src="https://media.istockphoto.com/photos/multicolored-macaroons-picture-id1185891624?k=20&m=1185891624&s=612x612&w=0&h=dXtzfAVVp14Ih1YX9RGTbElitKcb_9HC5xd0aOtct3Q=" alt="colorful cookies">
+                <p>Cookie soufflé <br> Dessert carrot cake <br> fruitcake <br> halvah pudding cake. Marzipan topping bear claw<br> soufflé gingerbread biscuit. <br> Tiramisu gummi bears chocolate bar <br> sugar plum icing muffin cake<br> jelly-o icing.</p>
+              </div>
+            </section>
+        
+            <section class="content-row">
+              <div>
+                <h2>Catering</h2>
+                <img src="https://media.istockphoto.com/photos/diversity-of-dessert-with-fruit-picture-id614623616?k=20&m=614623616&s=612x612&w=0&h=b0N7LpNTCoIU5P9_TfbrISDd69R9vcPF84lHke_KhAk=" alt="assorted pasteries">
+                <p> Sweet jelly-o apple pie powder jelly beans. <br> Pastry sweet roll cake jujubes halvah soufflé brownie. Toffee cookie lemon drops <br> jelly beans<br> chocolate bar. <br> Wafer muffin jujubes <br> danish tart danish chocolate wafer.</p>
+              </div>
+            </section>
+        
+            <section class="contact-section">
+        
+              <h4>Contact</h4>
+              <address>
+                yum@sweeteatsbakery.com<br>
+                202-555-0144<br>
+                4209 Bobcat Drive<br>
+                Madison, WI, 48219</br>
+              </address>
+            </section>
+            <!-- footer -->
+            <footer>
+              <div class="footer-content">
+                <h5>Sweet Eats Bakery</h5>
+                <nav>
+                  <a href="#">About</a>
+                  <a href="#">Cookies</a>
+                  <a href="#">Weddings</a>
+                  <a href="#">Catering</a>
+                  <a href="#">Contact</a>
+                </nav>
+                <p class="copyright">&copy; Sweet Eats 2021</p>
+              </div>
+            </footer>
+    </body>
 </html>
