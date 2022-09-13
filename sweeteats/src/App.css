@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+nav button {
+  border: 1px solid black;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 6px;
+}
+
+.navbar button:focus {
+  outline: 0;
+}
+.nav-links {
+  border: 1px solid red;
+}
+.home-image {
+  width: 100%;
+  min-width: 1032px;
+  max-height: 400px;
+  object-fit: cover;
+}
