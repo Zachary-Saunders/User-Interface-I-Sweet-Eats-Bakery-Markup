@@ -1,0 +1,221 @@
+* {
+    color: #3C373B;
+  }
+  
+  body {
+    background: url('https://wallpapercave.com/wp/wp4221111.jpg');
+    background-size: cover;
+    font-family: roboto;
+  }
+  
+  h1 {
+    font-family: 'Great Vibes', cursive;
+    margin: 20px 0;
+    /*=======  Update the font size to 60px and center the text */
+    font-size: 60px;
+    text-align: center;
+    color:#8b3a62;
+  }
+  
+  h2, h3, h4, h5, h6 {
+    font-family: 'Great Vibes', cursive;
+    margin-bottom: 0;
+    padding: 0 10px;
+    /*=======  Update the font size to 30px */
+    
+    font-size: 30px;
+    color: #8b3a62;
+    font-weight: bold;
+  }
+  
+  /*======= Create a selector for ALL p tags in the site to have the following styles:
+  
+  font-size: 16px;
+  font-family: roboto;
+  padding: 10px;
+  line-height: 1.4;
+  
+  */
+  p {
+    font-size: 18px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    padding: 10px;
+    line-height: 1.4;
+  }
+  
+  /*======= Create a selector for ALL images in the site to have the following styles: 
+  
+    border-radius: 10px;
+  
+  */
+  
+  img {
+    border-radius: 10px;
+    box-shadow:10px 10px 5px  grey;
+  }
+  
+  .content-row img {
+    border: 0px solid black;
+  }
+  
+  .content-row {
+    display: flex;
+    border-bottom: 2px solid purple;
+    margin-top: 40px;
+  }
+  
+  .content-row div {
+    /*======= create a margin propery.  Set the value to 20px */
+    margin: 20px;
+  }
+  
+  .container {
+    /*======= create a width property. Set the value to 600px */
+    margin: 0 auto;
+    width: 650px;
+    background: #fffff0;
+    padding: 20px 50px;
+  }
+  
+  .container header nav a {
+    margin: 0 6px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+     /*======= create a background property. Set the value to #F87B99 */
+    background:#cd6090;
+    box-shadow:10px 10px 5px  grey;
+  }
+  
+  .container header nav a:hover {
+  /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
+    background: #d248a2;
+    color: white;
+    border: 1px solid pink;
+    -webkit-transition: .3s;
+    transition: .3s;
+    transform: rotate(360deg);
+    
+  }
+  
+  /*======= Create a selector for the about section to have the following styles:
+    margin-top: 20px;
+  */
+  .about content-row {
+    margin-top: 20px;
+    background-color: #ed837d;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px -1px #1f0605;
+  }
+  .about {
+    margin-top: 20px;
+  }
+  
+  
+  .contact-section {
+    padding: 20px 0;
+    margin-top: 40px;
+    text-align: center;
+   
+  }
+  
+  .contact-section h2 {
+    padding: 0;
+    margin: 0 0 10px 0;
+  }
+  
+  /*======= Create a selector for the address tag in the contactd-section class to have the following styles:
+     line-height: 2;
+  */
+  
+  
+  
+  footer {
+   
+    margin: 0 auto;
+    width: 650px;
+    background: #fffff0;
+    padding: 20px 50px;
+  }
+  
+  footer .footer-content { 
+    margin: 0 auto; 
+    /*======= create a width property. Set the value to 600px */
+    width: 600px;
+    
+  }
+  
+  footer .footer-content h3 {
+    text-align: center;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  footer  nav {
+     
+    margin: 0 6px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+     /*======= create a background property. Set the value to #F87B99 */
+  
+    
+  }
+  
+  /*======= Create a selector for the anchor tag in the footer to have the following styles:
+    margin: 10px;
+    color: black;
+    text-decoration: underline;
+  */
+  footer nav a {
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    padding: 0px 5px 0px; 
+    display: flex-row;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+     /*======= create a background property. Set the value to #F87B99 */
+    background:#cd6090;
+    box-shadow:10px 10px 5px  grey;
+  }
+  
+  
+  footer nav a:first-child {
+    margin-left: 0;
+    background: #cd6090;
+  }
+  
+  /*======= Create a hover state for the anchor tag in the footer nav to have the following styles:
+    color: white;
+  */
+  footer nav a:hover {
+    box-shadow:10px 10px 5px  grey;
+     background: #d248a2;
+    color: white;
+    border: 1px solid pink;
+    -webkit-transition: .3s;
+    transition: .3s;
+    transform: rotate(360deg);
+  }
+  
+  footer   .copyright {
+   
+    margin: 0 auto;
+     /*======= center the text here */
+    text-align: center;
+    font-size: 12px;
+    color:black;
+  }
